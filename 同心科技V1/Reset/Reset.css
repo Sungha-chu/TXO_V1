@@ -1,0 +1,95 @@
+body{
+	background-color: rgba(255, 255, 255, 0.5);
+	background-size: 100%;
+}
+
+#TitleBar {
+	width: 99%;
+	position: absolute;
+	background-color: rgba(0, 200, 255, 1.0);
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.icon, .page, .btnGroup {
+	border:0px;
+	color:white;
+	font-size:80px;
+	display: inline-block;
+}
+
+.icon{
+	width:40%;
+}
+
+.page{
+	width:45%;
+}
+
+.btnGroup{
+	font-size:40px;
+	background-color:#1E90FF;
+}
+
+.btnGroup:hover{
+	background-color:#4169E1;
+}
+
+#reset_frame {
+	width: 400px;
+	position: absolute;
+	padding:50px;
+	left:50%;
+	margin-left:-200px;
+	margin-top:10%;
+	background-color: rgba(0, 200, 255, 1.0);
+	border-radius: 10px;
+	text-align: center;
+}
+
+.label_input {
+	font-size: 25px;
+	width: 80px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	color: white;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.text_field {
+	width: 278px;
+	height: 28px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border: 0;
+}
+
+#btn_reset {
+	cursor:pointer;
+	font-size: 20px;
+	width: 120px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	color: white;
+	background-color: #4169E1;
+	border-radius: 6px;
+	border: 0;
+	float: center;
+	transition: all .25s ease-in-out;
+}
+
+#btn_reset:hover{
+	background: rgba(0, 0, 100, 0.7);
+}
+
+#reset_control {
+	padding: 0 28px;
+}
+
+.itext {
+	filter: glow(color:blue, strength=2); font-size:50px; color:white; font-weight:900; text-shadow: 1px 1px 5px blue;
+	transition: all .25s ease-in-out;
+}

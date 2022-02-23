@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>重設密碼</title>
+		<link rel="stylesheet" type="text/css" href="Reset.css"/><!--引用CSS-->
+		<script type="text/javascript" src="Reset.js"></script><!--引用JS-->
+	</head>
+
+	<body>
+		<div id='TitleBar'>
+			<div class='icon'> 同心科技 </div>
+			<div class='page'>重設密碼</div>
+			<input type="button" class="btnGroup" value="回首頁" onclick='window.location.href="../HomePage/HomePage.html"'/>
+		</div>
+		<div id="reset_frame">
+			<p><label class="label_input">帳&emsp;&emsp;號 :</label><input type="text" id="account" placeholder=" Email..." class="text_field"/></p><!--&emsp; 輸出全型空格-->
+			<p><label class="label_input">密&emsp;&emsp;碼 :</label><input type="password" id="password" placeholder=" Password..." class="text_field"/></p>
+			<p><label class="label_input">確認密碼 :</label><input type="password" id="passwordCheck" placeholder=" Password..." class="text_field"/></p>
+			<div id="reset_control">
+					<input type="button" id="btn_reset" value="儲存" onclick="reset();"/>
+				</div>
+		</div>
+	</body>
+</html>

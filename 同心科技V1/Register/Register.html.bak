@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>註冊</title>
+		<link rel="stylesheet" type="text/css" href="Register.css"/><!--引用CSS-->
+		<script type="text/javascript" src="Register.js"/><!--引用JS-->
+	</head>
+
+	<body>
+		<div id='TitleBar'>
+			<div class='icon'> 團隊名稱 </div>
+			<div class='page'>註冊</div>
+			<input type="button" class="btnGroup" value="回首頁" onclick='window.location.href="../HomePage/HomePage.html"'/>
+		</div>
+		<div id="register_frame">
+			<p><label class="label_input">帳&emsp;&emsp;號 :</label><input type="text" id="account" placeholder=" Email..." class="text_field"/></p><!--&emsp; 輸出全型空格-->
+			<p><label class="label_input">密&emsp;&emsp;碼 :</label><input type="password" id="password" placeholder=" Password..." class="text_field"/></p>
+			<p><label class="label_input">確認密碼 :</label><input type="password" id="passwordCheck" placeholder=" Password..." class="text_field"/></p>
+			<div id="register_control">
+					<input type="button" id="btn_register" value="註冊" onclick="register();"/>
+					<a class="itext" id="register_pwd" href="../Login/Login.html">已有帳號?</a>
+					<a class="itext" id="register_pwd" href="../Forget/Forget.html">忘記密碼?&emsp;&emsp;</a><!--沒有帳號則跳轉到忘記密碼介面-->
+			</div>
+		</div>
+	</body>
+</html>

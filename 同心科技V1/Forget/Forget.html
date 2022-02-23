@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>忘記密碼</title>
+		<link rel="stylesheet" type="text/css" href="Forget.css"/><!--引用CSS-->
+		<script type="text/javascript" src="Forget.js"></script><!--引用JS-->
+	</head>
+
+	<body>
+		<div id='TitleBar'>
+			<div class='icon'> 團隊名稱 </div>
+			<div class='page'> 忘記密碼 </div>
+			<input type="button" class="btnGroup" value="回首頁" onclick='window.location.href="../HomePage/HomePage.html"'/><!--回到首頁的按鈕-->
+		</div>
+		<div id="forget_frame">
+			<p><label class="label_input">帳&emsp;號 :</label><input type="text" id="account" placeholder=" Email..." class="text_field"/></p><!--輸入帳號-->
+			<p><label class="label_input">User ID :</label><input type="password" id="userId" placeholder=" User ID..." class="text_field"/></p><!--輸入User ID-->
+			<div id="forget_control">
+				<input type="button" id="btn_forget" value="確定" onclick="forget();"/><!--確定按鈕-->
+			</div>
+		</div>
+
+	</body>
+</html>

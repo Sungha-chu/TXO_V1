@@ -1,0 +1,110 @@
+body{
+	background-color: rgba(255, 255, 255, 0.5);
+	background-size: 100%;
+}
+
+#TitleBar {
+	width: 99%;
+	position: absolute;
+	background-color: rgba(0, 200, 255, 1.0);
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.icon, .page, .btnGroup {
+	border:0px;
+	color:white;
+	font-size:30px;
+	display: inline-block;
+}
+
+.icon{
+	width:45%;
+}
+
+.page{
+	width:40%;
+}
+
+.userID{
+	border:0px;
+	color:white;
+	font-size:20px;
+	background-color:rgba(0, 200, 255, 1.0);
+}
+
+.userID:hover{
+	color:#4169E1;
+}
+
+#state_frame,#user_frame,#container,#event_frame,#event_list{
+	position: absolute;
+	text-align: center;
+	display:inline-block;
+	margin-top:5%;
+	font-size: 20px;
+	position: absolute;
+	border-radius: 10px;
+}
+
+#state_frame{
+	width:11%;
+}
+
+#user_frame {
+	text-align: left;
+	left:15%;
+}
+
+#container{
+	text-align: left;
+	margin-top:6.5%;
+	left:22%;
+}
+
+#event_frame{
+	width:1050px;
+	margin-top:4%;
+	left:35%;
+	background-color:#0000FF;
+	color:white;
+}
+
+#event_list{
+	border:1px solid red;
+	position: absolute;
+	text-align: center;
+	margin-top:7%;
+	left:35%;
+	font-size: 20px;
+	position: absolute;
+}
+
+.btn, .deviceList{
+	width:200px;
+	font-size:20px;
+	color:white;
+	background-color:#4169E1;
+	text-align:center;
+	border:0px;
+	margin:1px;
+}
+
+.btn:hover, .deviceList:hover{
+	background-color:#1E90FF;
+}
+
+.label_input{
+	border:1px solid red;
+	width: 200px;
+	display: inline-block;
+}
+
+.text_field {
+	background-color:#DDDDDD;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border: 0;
+	font-size:20px;
+}
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>主畫面</title>
+		<link rel="stylesheet" type="text/css" href="Main.css"/><!--引用CSS-->
+		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script><!--引用 sweetalert的JS-->
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script><!--引用 sweetalert的JS-->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script><!--引用 sweetalert的JS-->
+		<script type="text/javascript" src="Main.js"></script><!--引用JS-->
+		
+	</head>
+	
+	<body>
+		<div id='TitleBar'>
+			<div class='icon'> 團隊名稱 </div>
+			<div class='page'>主畫面</div>
+			<button class="userID" onclick='showUserInfo();'>FWD-66666</button><!--User ID按鈕-->
+		</div>
+		
+		
+		<div id="state_frame">
+			<button class='btn' onclick='newDevice();'>新增裝置</button><!--新增裝置按鈕-->
+			<select class="deviceList" onclick="newSelect();" onchange="selected();" id="deviceList"><!--裝置清單-->
+				<option value="0">請選擇裝置
+			</select>
+		</div>
+
+		<div id="user_frame"></div>
+		<div id="container"></div>
+		</br>
+		
+		<div id="event_frame"></div>
+		
+		<div id="event_list">
+			<table>
+				<tr>
+					<td style="width:200px;border:1px solid red">事件ID</td>
+					<td style="width:200px;border:1px solid red">觸發時間</td>
+					<td style="width:200px;border:1px solid red">事件類別</td>
+					<td style="width:200px;border:1px solid red">圖片連結</td>
+				</tr>
+				
+				<tr>
+					<td>2</td>
+				</tr>
+				
+				<tr>
+					<td>3</td>
+				</tr>
+			</table>
+		</div>
+		
+	</body>
+</html>
